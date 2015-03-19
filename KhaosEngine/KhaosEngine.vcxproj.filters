@@ -1,17 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Source">
+      <UniqueIdentifier>{8e01a651-25cb-4831-bbe6-973298bca5fe}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    <Filter Include="Source\KhaosMath">
+      <UniqueIdentifier>{6dec3465-7d3e-4356-92d2-284a459469e4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Source\KhaosTesting">
+      <UniqueIdentifier>{2ccd807d-6831-48c8-aafd-3621cc06f83f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\KhaosEngine">
+      <UniqueIdentifier>{e9b792a3-e28c-47ed-a092-f61d52f3f0cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>Source\KhaosEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Source\KhaosMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3f.h">
+      <Filter>Source\KhaosMath</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestKhaosMath.cpp">
+      <Filter>Source\KhaosTesting</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

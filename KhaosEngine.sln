@@ -5,10 +5,6 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KhaosEngine", "KhaosEngine\KhaosEngine.vcxproj", "{F9CC4B4F-2DBF-490D-B172-43E7DBB85807}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KhaosMath", "KhaosMath\KhaosMath.vcxproj", "{7F0CD0A5-D506-4C3C-AA3E-C2B0D21E88EB}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KhaosTesting", "KhaosTesting\KhaosTesting.vcxproj", "{88C96F91-9E1F-478D-A3EA-C2156349D34F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,14 +15,6 @@ Global
 		{F9CC4B4F-2DBF-490D-B172-43E7DBB85807}.Debug|Win32.Build.0 = Debug|Win32
 		{F9CC4B4F-2DBF-490D-B172-43E7DBB85807}.Release|Win32.ActiveCfg = Release|Win32
 		{F9CC4B4F-2DBF-490D-B172-43E7DBB85807}.Release|Win32.Build.0 = Release|Win32
-		{7F0CD0A5-D506-4C3C-AA3E-C2B0D21E88EB}.Debug|Win32.ActiveCfg = Debug|Win32
-		{7F0CD0A5-D506-4C3C-AA3E-C2B0D21E88EB}.Debug|Win32.Build.0 = Debug|Win32
-		{7F0CD0A5-D506-4C3C-AA3E-C2B0D21E88EB}.Release|Win32.ActiveCfg = Release|Win32
-		{7F0CD0A5-D506-4C3C-AA3E-C2B0D21E88EB}.Release|Win32.Build.0 = Release|Win32
-		{88C96F91-9E1F-478D-A3EA-C2156349D34F}.Debug|Win32.ActiveCfg = Debug|Win32
-		{88C96F91-9E1F-478D-A3EA-C2156349D34F}.Debug|Win32.Build.0 = Debug|Win32
-		{88C96F91-9E1F-478D-A3EA-C2156349D34F}.Release|Win32.ActiveCfg = Release|Win32
-		{88C96F91-9E1F-478D-A3EA-C2156349D34F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
