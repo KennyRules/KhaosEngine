@@ -12,6 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common.h" />
+    <ClInclude Include="CommonMath.h" />
     <ClInclude Include="Quaternion.h" />
     <ClInclude Include="Vector3f.h" />
   </ItemGroup>

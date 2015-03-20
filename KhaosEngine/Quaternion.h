@@ -2,9 +2,9 @@
 
 namespace KhaosMath
 {
-	class Quaternion
-	{
-	public:
-		float x, y, z, w;
-	};
+    class Quaternion
+    {
+    public:
+        float x, y, z, w;
+    };
 }

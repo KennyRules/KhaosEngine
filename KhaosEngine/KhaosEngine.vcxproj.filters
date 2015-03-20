@@ -24,6 +24,9 @@
     <ClInclude Include="Vector3f.h">
       <Filter>Source\KhaosMath</Filter>
     </ClInclude>
+    <ClInclude Include="CommonMath.h">
+      <Filter>Source\KhaosMath</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TestKhaosMath.cpp">
