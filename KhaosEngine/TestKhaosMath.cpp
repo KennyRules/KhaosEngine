@@ -30,7 +30,7 @@ int main() {
     float a = aVector | bVector;
     float b = aVector.dot(bVector);
     float c = Vector3f::DotProduct(aVector, bVector);
-
+    
     char input;
     cin >> input;
     return 0;

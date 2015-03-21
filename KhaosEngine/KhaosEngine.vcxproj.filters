@@ -27,6 +27,15 @@
     <ClInclude Include="CommonMath.h">
       <Filter>Source\KhaosMath</Filter>
     </ClInclude>
+    <ClInclude Include="Vector4f.h">
+      <Filter>Source\KhaosMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2f.h">
+      <Filter>Source\KhaosMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x4f.h">
+      <Filter>Source\KhaosMath</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TestKhaosMath.cpp">

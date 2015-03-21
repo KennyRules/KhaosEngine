@@ -13,8 +13,11 @@
   <ItemGroup>
     <ClInclude Include="Common.h" />
     <ClInclude Include="CommonMath.h" />
+    <ClInclude Include="Matrix4x4f.h" />
     <ClInclude Include="Quaternion.h" />
+    <ClInclude Include="Vector2f.h" />
     <ClInclude Include="Vector3f.h" />
+    <ClInclude Include="Vector4f.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TestKhaosMath.cpp" />
