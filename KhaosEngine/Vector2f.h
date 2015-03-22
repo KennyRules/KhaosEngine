@@ -7,7 +7,7 @@
 
 namespace KhaosMath
 {
-    // Class representing a 3-dimensional vector defined as 3 floating point numbers.
+    // Class representing a 2-dimensional vector defined as 2 floating point numbers.
     // By Drew Diamantoukos
     __declspec(align(8)) class Vector2f
     {

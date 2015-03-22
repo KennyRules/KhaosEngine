@@ -9,6 +9,7 @@ namespace KhaosMath
     // By Drew Diamantoukos
     __declspec(align(16)) class Matrix4x4f
     {
+    public:
         float elements[4][4];
 
         // Default constructor that zeros all elements.
@@ -20,8 +21,16 @@ namespace KhaosMath
         Matrix4x4f(float a, float b, float c, float d,
                    float e, float f, float g, float h,
                    float i, float j, float k, float l,
-                   float m, float n, float o, float p)
-            : elements{ { a, b, c, d }, { e, f, g, h }, { i, j, k, l }, { m, n, o, p } } { }
+                   float m, float n, float o, float p) { 
+            elements[0][0] = a; elements[0][1] = b; elements[0][2] = c; elements[0][3] = d;
+            elements[1][0] = e; elements[1][1] = f; elements[1][2] = g; elements[1][3] = h;
+            elements[2][0] = i; elements[2][1] = j; elements[2][2] = k; elements[2][3] = l;
+            elements[3][0] = m; elements[3][1] = n; elements[3][2] = o; elements[3][3] = p;
+        }
+
+        float* operator[](const K_INT index) {
+            return elements[index];
+        }
 
         // Add two matrices together to create a new one.
         Matrix4x4f operator+(const Matrix4x4f& other) const {
@@ -119,6 +128,22 @@ namespace KhaosMath
             elements[3][0] /= aScalar; elements[3][1] /= aScalar,
             elements[3][2] /= aScalar; elements[3][3] /= aScalar;
             return *this;
+        }
+
+        // Returns the transpose of this matrix. Does not modify the original matrix.
+        Matrix4x4f getTranspose() const {
+            return Matrix4x4f(elements[0][0], elements[1][0], elements[2][0], elements[3][0],
+                              elements[0][1], elements[1][1], elements[2][1], elements[3][1],
+                              elements[0][2], elements[1][2], elements[2][2], elements[3][2],
+                              elements[0][3], elements[1][3], elements[2][3], elements[3][3]);
+        }
+
+        // Sets this matrix to its transpose. Original matrix is modified.
+        void setToTranspose() {
+            (*this) = Matrix4x4f(elements[0][0], elements[1][0], elements[2][0], elements[3][0],
+                                 elements[0][1], elements[1][1], elements[2][1], elements[3][1],
+                                 elements[0][2], elements[1][2], elements[2][2], elements[3][2],
+                                 elements[0][3], elements[1][3], elements[2][3], elements[3][3]);
         }
     };
 }
