@@ -13,33 +13,45 @@
     <Filter Include="Source\KhaosEngine">
       <UniqueIdentifier>{e9b792a3-e28c-47ed-a092-f61d52f3f0cb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\KhaosMath\Headers">
+      <UniqueIdentifier>{268226f3-1ea9-4152-9e1e-a4ec9b2f376f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\KhaosMath\Source">
+      <UniqueIdentifier>{c16c62bf-73a1-473a-bbd5-66c2aeec0cc3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common.h">
       <Filter>Source\KhaosEngine</Filter>
     </ClInclude>
-    <ClInclude Include="Quaternion.h">
-      <Filter>Source\KhaosMath</Filter>
-    </ClInclude>
-    <ClInclude Include="Vector3f.h">
-      <Filter>Source\KhaosMath</Filter>
-    </ClInclude>
     <ClInclude Include="CommonMath.h">
-      <Filter>Source\KhaosMath</Filter>
-    </ClInclude>
-    <ClInclude Include="Vector4f.h">
-      <Filter>Source\KhaosMath</Filter>
-    </ClInclude>
-    <ClInclude Include="Vector2f.h">
-      <Filter>Source\KhaosMath</Filter>
+      <Filter>Source\KhaosMath\Headers</Filter>
     </ClInclude>
     <ClInclude Include="Matrix4x4f.h">
-      <Filter>Source\KhaosMath</Filter>
+      <Filter>Source\KhaosMath\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Source\KhaosMath\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2f.h">
+      <Filter>Source\KhaosMath\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3f.h">
+      <Filter>Source\KhaosMath\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4f.h">
+      <Filter>Source\KhaosMath\Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TestKhaosMath.cpp">
       <Filter>Source\KhaosTesting</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4x4f.cpp">
+      <Filter>Source\KhaosMath\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4f.cpp">
+      <Filter>Source\KhaosMath\Source</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

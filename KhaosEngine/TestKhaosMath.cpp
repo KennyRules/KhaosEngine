@@ -15,10 +15,11 @@ void printVector(const Vector3f& aVector) {
 
 void printMatrix(Matrix4x4f& aMat) {
     cout << "[ " <<
-    aMat[0][0] << " " << aMat[0][1] << " " << aMat[0][2] << " " << aMat[0][3] << endl <<
-    aMat[1][0] << " " << aMat[1][1] << " " << aMat[1][2] << " " << aMat[1][3] << endl <<
-    aMat[2][0] << " " << aMat[2][1] << " " << aMat[2][2] << " " << aMat[2][3] << endl <<
-    aMat[3][0] << " " << aMat[3][1] << " " << aMat[3][2] << " " << aMat[3][3] << " ]" << endl;
+    aMat(0,0) << " " << aMat(0,1) << " " << aMat(0,2) << " " << aMat(0,3) << endl <<
+    aMat(1, 0) << " " << aMat(1, 1) << " " << aMat(1, 2) << " " << aMat(1, 3) << endl <<
+    aMat(2, 0) << " " << aMat(2, 1) << " " << aMat(2, 2) << " " << aMat(2, 3) << endl <<
+    aMat(3, 0) << " " << aMat(3, 1) << " " << aMat(3, 2) << " " << aMat(3, 3) << endl << 
+    " ]" << endl;
 }
 
 int main() {
