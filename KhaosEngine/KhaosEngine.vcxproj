@@ -13,6 +13,7 @@
   <ItemGroup>
     <ClInclude Include="Common.h" />
     <ClInclude Include="CommonMath.h" />
+    <ClInclude Include="KhaosMath.h" />
     <ClInclude Include="Matrix4x4f.h" />
     <ClInclude Include="Quaternion.h" />
     <ClInclude Include="Vector2f.h" />
@@ -20,9 +21,7 @@
     <ClInclude Include="Vector4f.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Matrix4x4f.cpp" />
     <ClCompile Include="TestKhaosMath.cpp" />
-    <ClCompile Include="Vector4f.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F9CC4B4F-2DBF-490D-B172-43E7DBB85807}</ProjectGuid>

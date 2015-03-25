@@ -24,9 +24,6 @@
     <ClInclude Include="Common.h">
       <Filter>Source\KhaosEngine</Filter>
     </ClInclude>
-    <ClInclude Include="CommonMath.h">
-      <Filter>Source\KhaosMath\Headers</Filter>
-    </ClInclude>
     <ClInclude Include="Matrix4x4f.h">
       <Filter>Source\KhaosMath\Headers</Filter>
     </ClInclude>
@@ -42,16 +39,16 @@
     <ClInclude Include="Vector4f.h">
       <Filter>Source\KhaosMath\Headers</Filter>
     </ClInclude>
+    <ClInclude Include="KhaosMath.h">
+      <Filter>Source\KhaosMath\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonMath.h">
+      <Filter>Source\KhaosMath\Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TestKhaosMath.cpp">
       <Filter>Source\KhaosTesting</Filter>
-    </ClCompile>
-    <ClCompile Include="Matrix4x4f.cpp">
-      <Filter>Source\KhaosMath\Source</Filter>
-    </ClCompile>
-    <ClCompile Include="Vector4f.cpp">
-      <Filter>Source\KhaosMath\Source</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

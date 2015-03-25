@@ -145,14 +145,14 @@ namespace KhaosMath
 
         // Linear Interpolation between two vectors.
         // Beta will be clamped between [0,1] inclusive.
-        static Vector2f Lerp(const Vector2f& aVector, const Vector2f bVector, float beta) {
+        static Vector2f Lerp(const Vector2f& aVector, const Vector2f& bVector, float beta) {
             beta = ClampInclusive(beta, 0.0f, 1.0f);
             return (aVector * (1.0f - beta)) + (bVector * beta);
         }
 
         // Linear Interpolation between two vectors.
         // Beta must be clamped between [0,1], inclusive, before calling to ensure correct result.
-        static Vector2f LerpNoClamp(const Vector2f& aVector, const Vector2f bVector, float beta) {
+        static Vector2f LerpNoClamp(const Vector2f& aVector, const Vector2f& bVector, float beta) {
             return (aVector * (1.0f - beta)) + (bVector * beta);
         }
 

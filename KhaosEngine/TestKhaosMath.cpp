@@ -1,9 +1,7 @@
 #include <iostream>
 #include <chrono>
 
-#include "Vector3f.h"
-#include "Matrix4x4f.h"
-#include "Common.h"
+#include "KhaosMath.h"
 
 using namespace std;
 using namespace std::chrono;
@@ -34,7 +32,17 @@ int main() {
                        21.0f, 22.0f, 23.0f, 24.0f,
                        25.0f, 26.0f, 27.0f, 28.0f,
                        29.0f, 30.0f, 31.0f, 32.0f);
+
+    Vector4f a{ 0.0f, 0.0f, 0.0f, 0.0f };
+    Vector4f b{ 2.0f, 4.0f, 8.0f, 16.0f };
     
+    __m128 ma = a;
+    __m128 mb = b;
+    
+    _mm_add_ps(ma, mb);
+    a + b;
+    _mm_add_ps(a, b);
+
     char input;
     cin >> input;
     return 0;

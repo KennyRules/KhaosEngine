@@ -131,7 +131,7 @@ namespace KhaosMath
         }
 
         // Returns the cross product between two vectors.
-        static Vector3f crossProduct(const Vector3f& aVector, const Vector3f& bVector)  {
+        static Vector3f CrossProduct(const Vector3f& aVector, const Vector3f& bVector)  {
             return Vector3f(aVector.y * bVector.z - aVector.z * bVector.y,
                             aVector.z * bVector.x - aVector.x * bVector.z,
                             aVector.x * bVector.y - aVector.y * bVector.x);
