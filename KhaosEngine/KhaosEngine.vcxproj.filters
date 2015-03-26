@@ -50,5 +50,8 @@
     <ClCompile Include="TestKhaosMath.cpp">
       <Filter>Source\KhaosTesting</Filter>
     </ClCompile>
+    <ClCompile Include="TestSDL.cpp">
+      <Filter>Source\KhaosTesting</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

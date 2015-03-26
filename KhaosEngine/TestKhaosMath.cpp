@@ -20,7 +20,7 @@ void printMatrix(Matrix4x4f& aMat) {
     " ]" << endl;
 }
 
-int main() {
+int TestMath() {
     high_resolution_clock clock;
 
     Matrix4x4f aMatrix(1.0f, 2.0f, 3.0f, 4.0f,
